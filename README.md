@@ -24,6 +24,7 @@ The model data is labeled as follows:
 The model is a simple Convolutional Neural Network with the following architecture:
 
 Model: "sequential"
+```
 _________________________________________________________________
 Layer (type)                 Output Shape              Param #   
 =================================================================
@@ -51,9 +52,9 @@ Total params: 2,441
 Trainable params: 2,441
 Non-trainable params: 0
 Training Results
-
+```
 The following are the F1 scores per label. A .95 F1 composite accuracy was achieved.
-
+```
 class   precision    recall  f1-score   support             
 0       1.00      0.95      0.98        44            
 1       0.90      0.94      0.92        95            
@@ -69,3 +70,4 @@ accuracy                               0.95       549
 macro avg          0.96      0.96      0.96       549 
 weighted avg       0.95      0.95      0.95       549
 Deploy Model to device
+```
