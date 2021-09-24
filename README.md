@@ -6,29 +6,22 @@ The model data used in training is; 20 samples of normalized IMU readings @ 30 H
 
 where:
 
-Sa - Accelerometer XYZ samples
-Sg - Gyroscope XYZ samples
-Samin/max - Accelerometer min/max values (found by inspection)
-Sgmin/max - Gyroscope min/max values (found by inspection)
+* Sa - Accelerometer XYZ samples
+* Sg - Gyroscope XYZ samples
+* Samin/max - Accelerometer min/max values (found by inspection)
+* Sgmin/max - Gyroscope min/max values (found by inspection)
+
 The model data is labeled as follows:
 
-0 - Rest
-
-1 - Forward
-
-2 - Backward
-
-3 - Left turn
-
-4 - Right turn
-
-5 - Up (jump)
-
-6 - Down (squat)
-
-7 - Left side step
-
-8 - Right side step
+* 0 - Rest
+* 1 - Forward
+* 2 - Backward
+* 3 - Left turn
+* 4 - Right turn
+* 5 - Up (jump)
+* 6 - Down (squat)
+* 7 - Left side step
+* 8 - Right side step
 
 
 The model is a simple Convolutional Neural Network with the following architecture:
