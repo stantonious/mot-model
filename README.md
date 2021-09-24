@@ -13,14 +13,24 @@ Sgmin/max - Gyroscope min/max values (found by inspection)
 The model data is labeled as follows:
 
 0 - Rest
+
 1 - Forward
+
 2 - Backward
+
 3 - Left turn
+
 4 - Right turn
+
 5 - Up (jump)
+
 6 - Down (squat)
+
 7 - Left side step
+
 8 - Right side step
+
+
 The model is a simple Convolutional Neural Network with the following architecture:
 
 Model: "sequential"
